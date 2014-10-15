@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:text="@string/rx_hello_world_desc" />
+
+    <Button
+        android:id="@+id/frag_rx_hello_world"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/desc"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:text="@string/display_hello_world" />
+
+    <TextView
+        android:id="@+id/displayHelloWorld"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/display_hello_world" />
+
+</RelativeLayout>

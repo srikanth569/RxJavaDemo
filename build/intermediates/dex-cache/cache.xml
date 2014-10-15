@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/srikanth/Documents/RxJavaDemo/app/build/intermediates/pre-dexed/debug/rxjava-core-0.20.4-e94c6a2d31c1703345000ff470e08c5415c25f08.jar"
+        jar="/Users/srikanth/.gradle/caches/modules-2/files-2.1/com.netflix.rxjava/rxjava-core/0.20.4/bbb645aee7782cd4ba838442f42edf1a1d352604/rxjava-core-0.20.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="bbb645aee7782cd4ba838442f42edf1a1d352604"/>
+    <item
+        dex="/Users/srikanth/Documents/RxJavaDemo/app/build/intermediates/pre-dexed/debug/butterknife-5.1.1-e143304dd71553f9f9fda54b5531b5a2f8cd74da.jar"
+        jar="/Users/srikanth/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/5.1.1/b3652dfd65ca0bcf18790ff1a1f7624af4cb2bb8/butterknife-5.1.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="b3652dfd65ca0bcf18790ff1a1f7624af4cb2bb8"/>
+    <item
+        dex="/Users/srikanth/Documents/RxJavaDemo/app/build/intermediates/pre-dexed/debug/rxjava-android-0.20.4-e0a9734a41ceb398e16e23e1b77b14c4fb72cee2.jar"
+        jar="/Users/srikanth/.gradle/caches/modules-2/files-2.1/com.netflix.rxjava/rxjava-android/0.20.4/e099d9501cff3c13949489dbb6985b8429c59292/rxjava-android-0.20.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e099d9501cff3c13949489dbb6985b8429c59292"/>
+
+</pre-dex-items>
