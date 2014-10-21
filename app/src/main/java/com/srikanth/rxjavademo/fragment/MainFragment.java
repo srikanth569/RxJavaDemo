@@ -35,7 +35,10 @@ public class MainFragment extends Fragment {
 
     @OnClick(R.id.rx_hello_world)
     void rx_hello_world() {
-        Log.v("Testing", this.toString());
         getActivity().getFragmentManager().beginTransaction().replace(R.id.activity_main, new RxHelloWorldDisplay()).commit();
+    }
+    @OnClick(R.id.transformation_demo)
+    void display_transformation_fragment() {
+        getActivity().getFragmentManager().beginTransaction().replace(R.id.activity_main, new Transformations()).commit();
     }
 }
