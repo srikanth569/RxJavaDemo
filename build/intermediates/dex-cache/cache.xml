@@ -1,47 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<pre-dex-items>
+<items version="2" >
 
     <item
-        dex="/Users/srikanth/Documents/RxJavaDemo/app/build/intermediates/pre-dexed/debug/classes-32fa4d1bcf9f25bc9c1662273e6572e36b96bfba.jar"
-        jar="/Users/srikanth/Documents/RxJavaDemo/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.0/classes.jar"
+        jar="/Users/srikanth/Documents/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="efeda77c808750cb670ee9c48d8a1835d89dbcb2"/>
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/srikanth/Documents/RxJavaDemo/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-07b80051b4c02922ad24623a162974dcc9d32b11.jar" />
+    </item>
     <item
-        dex="/Users/srikanth/Documents/RxJavaDemo/app/build/intermediates/pre-dexed/debug/classes-2c9fc12bc455e9091d26144483551d38d269ad95.jar"
-        jar="/Users/srikanth/Documents/RxJavaDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jar="/Users/srikanth/Documents/RxJavaDemo/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/Users/srikanth/Documents/RxJavaDemo/app/build/intermediates/pre-dexed/debug/classes-ac62053517503ffdf0a5c3980e081036f249c36a.jar" />
+    </item>
     <item
-        dex="/Users/srikanth/Documents/RxJavaDemo/app/build/intermediates/pre-dexed/debug/rxjava-android-0.20.4-e0a9734a41ceb398e16e23e1b77b14c4fb72cee2.jar"
-        jar="/Users/srikanth/.gradle/caches/modules-2/files-2.1/com.netflix.rxjava/rxjava-android/0.20.4/e099d9501cff3c13949489dbb6985b8429c59292/rxjava-android-0.20.4.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="e099d9501cff3c13949489dbb6985b8429c59292"/>
-    <item
-        dex="/Users/srikanth/Documents/RxJavaDemo/app/build/intermediates/pre-dexed/debug/rxjava-core-0.20.4-e94c6a2d31c1703345000ff470e08c5415c25f08.jar"
-        jar="/Users/srikanth/.gradle/caches/modules-2/files-2.1/com.netflix.rxjava/rxjava-core/0.20.4/bbb645aee7782cd4ba838442f42edf1a1d352604/rxjava-core-0.20.4.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="bbb645aee7782cd4ba838442f42edf1a1d352604"/>
-    <item
-        dex="/Users/srikanth/Documents/RxJavaDemo/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-c2c0243ea1253fb158de13e33656811b1ddedb11.jar"
-        jar="/Users/srikanth/Documents/RxJavaDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
-    <item
-        dex="/Users/srikanth/Documents/RxJavaDemo/app/build/intermediates/pre-dexed/debug/butterknife-5.1.1-e143304dd71553f9f9fda54b5531b5a2f8cd74da.jar"
         jar="/Users/srikanth/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/5.1.1/b3652dfd65ca0bcf18790ff1a1f7624af4cb2bb8/butterknife-5.1.1.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="b3652dfd65ca0bcf18790ff1a1f7624af4cb2bb8"/>
+        sha1="b3652dfd65ca0bcf18790ff1a1f7624af4cb2bb8">
+        <dex dex="/Users/srikanth/Documents/RxJavaDemo/app/build/intermediates/pre-dexed/debug/butterknife-5.1.1-e143304dd71553f9f9fda54b5531b5a2f8cd74da.jar" />
+    </item>
     <item
-        dex="/Users/srikanth/Documents/RxJavaDemo/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-ee576f91b45a6538d4156fc6e674b6f65034f74e.jar"
-        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jar="/Users/srikanth/Documents/RxJavaDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/srikanth/Documents/RxJavaDemo/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-fe077f4caffb56bb2d876141e343b3b8a115c2fc.jar" />
+    </item>
+    <item
+        jar="/Users/srikanth/.gradle/caches/modules-2/files-2.1/com.netflix.rxjava/rxjava-android/0.20.4/e099d9501cff3c13949489dbb6985b8429c59292/rxjava-android-0.20.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e099d9501cff3c13949489dbb6985b8429c59292">
+        <dex dex="/Users/srikanth/Documents/RxJavaDemo/app/build/intermediates/pre-dexed/debug/rxjava-android-0.20.4-e0a9734a41ceb398e16e23e1b77b14c4fb72cee2.jar" />
+    </item>
+    <item
+        jar="/Users/srikanth/Documents/RxJavaDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/srikanth/Documents/RxJavaDemo/app/build/intermediates/pre-dexed/debug/classes-3cc31cbb085b1998d872689ff64da8325484cfc9.jar" />
+    </item>
+    <item
+        jar="/Users/srikanth/.gradle/caches/modules-2/files-2.1/com.netflix.rxjava/rxjava-core/0.20.4/bbb645aee7782cd4ba838442f42edf1a1d352604/rxjava-core-0.20.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="bbb645aee7782cd4ba838442f42edf1a1d352604">
+        <dex dex="/Users/srikanth/Documents/RxJavaDemo/app/build/intermediates/pre-dexed/debug/rxjava-core-0.20.4-e94c6a2d31c1703345000ff470e08c5415c25f08.jar" />
+    </item>
 
-</pre-dex-items>
+</items>

@@ -19,10 +19,7 @@ import com.srikanth.rxjavademo.R;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by srikanth on 10/15/14.
- */
-public class Transformations extends Fragment implements View.OnClickListener, RecyclerView.OnItemTouchListener {
+public class Transformations extends Fragment implements View.OnClickListener, RecyclerView.OnItemTouchListener, RecyclerView.OnLongClickListener {
 
     private ImageButton imageButton;
     private RecyclerView recyclerView;
@@ -44,7 +41,8 @@ public class Transformations extends Fragment implements View.OnClickListener, R
         layoutManager.scrollToPosition(0);
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
-        recyclerView.addOnItemTouchListener(this);
+       // recyclerView.addOnItemTouchListener(this);
+        recyclerView.setOnLongClickListener(this);
         return view;
     }
 
@@ -55,52 +53,61 @@ public class Transformations extends Fragment implements View.OnClickListener, R
         layoutManager.scrollToPosition(0);
     }
 
-    final GestureDetector gestureDetector = new GestureDetector(getActivity(), new GestureDetector.OnGestureListener() {
-        @Override
-        public boolean onDown(MotionEvent e) {
-            return false;
-        }
-
-        @Override
-        public void onShowPress(MotionEvent e) {
-
-        }
-
-        @Override
-        public boolean onSingleTapUp(MotionEvent e) {
-            return false;
-        }
-
-        @Override
-        public boolean onScroll(MotionEvent e1, MotionEvent e2, float distanceX, float distanceY) {
-            return false;
-        }
-
-        @Override
-        public void onLongPress(MotionEvent e) {
-
-        }
-
-        @Override
-        public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
-            return false;
-        }
-    });
 
     @Override
-    public boolean onInterceptTouchEvent(RecyclerView view, MotionEvent e) {
+    public boolean onInterceptTouchEvent(final RecyclerView view, MotionEvent e) {
         View childView = view.findChildViewUnder(e.getX(), e.getY());
         int pos = view.getChildPosition(childView);
         Log.v("Testing", "The position in onInterceptTouchEvent is " + pos);
+        GestureDetector gestureDetector = new GestureDetector(getActivity(), new GestureDetector.OnGestureListener() {
+            @Override
+            public boolean onDown(MotionEvent e) {
+                return false;
+            }
+
+            @Override
+            public void onShowPress(MotionEvent e) {
+
+            }
+
+            @Override
+            public boolean onSingleTapUp(MotionEvent e) {
+                return false;
+            }
+
+            @Override
+            public boolean onScroll(MotionEvent e1, MotionEvent e2, float distanceX, float distanceY) {
+                return false;
+            }
+
+            @Override
+            public void onLongPress(MotionEvent e) {
+
+                Log.v("Testing", "Long press detected");
+            }
+
+            @Override
+            public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
+                return false;
+            }
+        });
+      //  gestureDetector.onTouchEvent(e);
         return false;
     }
 
     @Override
     public void onTouchEvent(RecyclerView view, MotionEvent e) {
-        gestureDetector.onTouchEvent(e);
+
         View childView = view.findChildViewUnder(e.getX(), e.getY());
         int pos = view.getChildPosition(childView);
         Log.v("Testing", "The position is " + pos);
+    }
+
+    @Override
+    public boolean onLongClick(View v) {
+        ListItemViewHolder holder = (ListItemViewHolder) v.getTag();
+        Log.v("blah", holder.subText.getText().toString());
+        return false;
     }
 
 

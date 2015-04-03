@@ -12,9 +12,6 @@ import com.srikanth.rxjavademo.R;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-/**
- * Created by srikanth on 10/7/14.
- */
 public class MainFragment extends Fragment {
 
 
@@ -41,4 +38,6 @@ public class MainFragment extends Fragment {
     void display_transformation_fragment() {
         getActivity().getFragmentManager().beginTransaction().replace(R.id.activity_main, new Transformations()).commit();
     }
+
+
 }

@@ -7,5 +7,6 @@
     <string name="rx_hello_world">RxJava HelloWorld!</string>
     <string name="transformation_demo">Transformations Demo</string>
     <string name="display_hello_world">Display Hello World</string>
+    <string name="delayed_subcription">Delayed Subscription</string>
     <string name="rx_hello_world_desc">This fragment demonstrates a simple equivalent of a hello world for RxJava. On button click off load the task of returning a string from a thread and populate on the main thread using RxJava semantics</string>
 </resources>

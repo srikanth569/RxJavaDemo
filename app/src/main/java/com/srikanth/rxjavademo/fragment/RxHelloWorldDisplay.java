@@ -16,9 +16,6 @@ import rx.Observable;
 import rx.Subscriber;
 import rx.functions.Action1;
 
-/**
- * Created by srikanth on 10/7/14.
- */
 public class RxHelloWorldDisplay extends Fragment {
     private static final String TAG = RxHelloWorldDisplay.class.getSimpleName();
 
